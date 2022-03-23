@@ -12,7 +12,11 @@ ENVIRONMENT="
     -e DISPLAY
     -e HOME
     -e USER
+<<<<<<< HEAD
     -e "CONTAINER='CentOS7'"
+=======
+    -e "CONTAINER=CentOS 7"
+>>>>>>> origin/main
 "
 
 VOLUMES="
