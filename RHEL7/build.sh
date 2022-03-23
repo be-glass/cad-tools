@@ -1,3 +1,3 @@
 #! /usr/bin/sh
 
-podman build -t rhel7 `dirname $0`
+podman build -t centos7 `dirname $0`
