@@ -1,0 +1,5 @@
+#! /usr/bin/sh
+
+. `dirname $0`/settings.sh
+
+podman run $OPTIONS $ENVIRONMENT $VOLUMES $IMAGE $0
